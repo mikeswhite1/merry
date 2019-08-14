@@ -2,6 +2,7 @@
 import './style.css';
 import * as functions from 'firebase-functions';
 import * as firebase from 'firebase';
+import * as angular from  ;
 
 // // Start writing Firebase Functions
 // // https://firebase.google.com/docs/functions/typescript
@@ -14,7 +15,7 @@ import * as firebase from 'firebase';
 const appDiv: HTMLElement = document.getElementById('app');
 appDiv.innerHTML = `<h1>TypeScript HOOOYYYY Starter</h1>`;
 
-var firebaseConfig = {
+const firebaseConfig = {
     apiKey: "AIzaSyDtLLwAUjvHmXyTFczU1e9klJMWQFioY7s",
     authDomain: "merry-972e0.firebaseapp.com",
     databaseURL: "https://merry-972e0.firebaseio.com",
@@ -34,4 +35,5 @@ history.doc("last").set({
   time: "11:11:00 AM"
 });
 
+const app = 
 
