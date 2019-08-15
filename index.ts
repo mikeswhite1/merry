@@ -2,6 +2,8 @@
 import './style.css';
 import * as firebase from 'firebase';
 
+const express = require('express');
+
 
 export const helloWorld = functions.https.onRequest((request, response) => {
  response.send("Hello from Firebase!");
