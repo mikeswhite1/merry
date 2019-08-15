@@ -1,6 +1,5 @@
 // Import stylesheets
 import './style.css';
-import * as functions from 'firebase-functions';
 import * as firebase from 'firebase';
 
 
