@@ -2,7 +2,7 @@
 import './style.css';
 import * as functions from 'firebase-functions';
 import * as firebase from 'firebase';
-import * as angular from  ;
+import * as angular from  'angular';
 
 // // Start writing Firebase Functions
 // // https://firebase.google.com/docs/functions/typescript
@@ -35,5 +35,5 @@ history.doc("last").set({
   time: "11:11:00 AM"
 });
 
-const app = 
+const app = angular
 
