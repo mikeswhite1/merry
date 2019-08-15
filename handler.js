@@ -1,8 +1,3 @@
-/// <reference path="angular.js" />
-
-var app = angular.module("myModule", [])
-
-
 $(function (){
   $.ajax({
     type: 'GET',
